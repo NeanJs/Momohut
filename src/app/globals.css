@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.features > div {
+  @apply mx-auto;
+}

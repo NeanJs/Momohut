@@ -1,10 +1,16 @@
+import { BodyWrapper, ContentWrapper } from "./ui/Wrapper";
+
 const Reservation = () => {
   return (
-    <section className="body-wrapper py-16 bg-gray-100">
-      <div className="content-wrapper text-center">
-        <h3 className="text-xs font-bold text-primary">Book a Table</h3>
-        <h2 className="text-3xl font-bold text-gray-900">Check Availability</h2>
-        <div className="mt-8 bg-white p-6 rounded-lg shadow-md max-w-md mx-auto">
+    <BodyWrapper className="body-wrapper w-full h-full">
+      <ContentWrapper className="text-center flex-col gap-0">
+        <div className="head bg-momo_gray text-white w-full rounded-t-lg p-4">
+          <h3 className="text-xs font-bold text-primary">Book a Table</h3>
+          <h2 className="text-3xl font-bold">
+            Check Availability
+          </h2>
+        </div>
+        <div className=" bg-white p-6 rounded-lg shadow-md w-full mx-auto h-full">
           <p className="text-gray-700">Monday - Friday: 12:00 PM - 10:00 PM</p>
           <p className="text-gray-700">
             Saturday - Sunday: 10:00 AM - 11:00 PM
@@ -14,8 +20,8 @@ const Reservation = () => {
             Reserve Now
           </button>
         </div>
-      </div>
-    </section>
+      </ContentWrapper>
+    </BodyWrapper>
   );
 };
 

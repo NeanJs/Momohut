@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        "momo_red": "#D23B4A", // Customize as per the brand
+        "momo_red": "#CC3233", // Customize as per the brand
         "momo_gray": "#333333",
       },
     },

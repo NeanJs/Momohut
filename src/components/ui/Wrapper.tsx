@@ -18,8 +18,14 @@ const BodyWrapper: React.FC<BodyWrapperProps> = ({
 }) => {
   return (
     <div
-      style={{ background: `url(${background})` }}
-      className={`w-full  overflow-hidden py-20 ${className || ""}`}
+      style={{
+        background: `url(${background})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
+      className={`w-full bg-cover bg-no-repeat overflow-hidden py-20 ${
+        className || ""
+      }`}
     >
       {children}
     </div>

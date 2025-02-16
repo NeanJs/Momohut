@@ -11,9 +11,9 @@ export default function AboutPage() {
       <Banner
         title="About Us"
         subtitle="Learn more about our story and passion for food."
-        backgroundImage="/about-banner.jpg"
+        backgroundImage="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       />
-      <About />
+      <About fullBlock />
       <Team />
       <Testimonials />
       <Newsletter />

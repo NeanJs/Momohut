@@ -29,7 +29,7 @@ const SpecialsMenu = () => {
   return (
     <BodyWrapper className="bg-gray-50 py-20">
       <ContentWrapper>
-        <div className="container mx-auto text-center">
+        <div className="container mx-auto text-center" data-aos="fade-up">
           <h2 className="text-3xl font-semibold text-gray-800 mb-8">
             Our Specials Menu
           </h2>
